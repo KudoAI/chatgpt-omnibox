@@ -19,8 +19,8 @@ function tabIsLoaded(tabId) {
 // Launch ChatGPT on toolbar icon click
 chrome.action.onClicked.addListener(async () => {
     const [activeTab] = await chrome.tabs.query({ active: true, currentWindow: true }),
-          query = new URL(activeTab?.url || 'about:blank').searchParams.get('q') || chrome.i18n.getMessage('query_hi'),
-          newTab = chrome.tabs.create({ url: `${chatgptURL}/?q=${query}` })
+           query = new URL(activeTab?.url || 'about:blank').searchParams.get('q') || chrome.i18n.getMessage('query_hi'),
+           newTab = chrome.tabs.create({ url: `${chatgptURL}/?q=${query}` })
     tabIsLoaded(newTab.id).then(() => chrome.tabs.sendMessage(newTab.id, query))
 })
 
