@@ -11,7 +11,7 @@
       "paypal": "https://paypal.me/adamlui"
     },
     "github": "https://github.com/KudoAI/chatgpt-omnibox",
-    "publisher": "https://kudoai.com",
+    "publisher": "https://kudoai.org",
     "relatedExtensions": "https://github.com/adamlui/ai-web-extensions/#readme",
     "review": { "firefox": "https://addons.mozilla.orgfirefox/addon/chatgpt-omnibox" },
     "support": "https://github.com/KudoAI/chatgpt-omnibox/issues",

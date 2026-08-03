@@ -4,13 +4,13 @@
   "description": "Type @chatgpt in address bar to get answers from ChatGPT",
   "author": {
     "name": "KudoAI & contributors",
-    "email": "authors@kudoai.com",
-    "url": "https://kudoai.com"
+    "email": "authors@kudoai.org",
+    "url": "https://kudoai.org"
   },
-  "homepage": "https://kudoai.com/chatgptomnibox",
+  "homepage": "https://chatgptomnibox.kudoai.org",
   "bugs": {
     "url": "https://github.com/KudoAI/chatgpt-omnibox/issues",
-    "email": "support@kudoai.com"
+    "email": "support@kudoai.org"
   },
   "license": "MIT",
   "funding": [
